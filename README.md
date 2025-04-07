@@ -1,3 +1,2 @@
 # numerix-project
-This project is a calculator that works out mathematical functions and also helb loan allocation
-RESLEY
+This project purposely control the number of cars inside a park and also monitors the movement in and out side of the parking lot,checks whether there is a place inside for more cars or not and the safety to park
