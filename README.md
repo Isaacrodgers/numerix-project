@@ -1,3 +1,23 @@
-# numerix-project
-This project is a calculator that works out mathematical functions and also helb loan allocation
-RESLEY
+PROJECT TITLE
+Numerix advanced calculator
+DESCRIPTION 
+
+FEATURES OF NUMERIX
+
+
+INSTALLATION INSTRUCTION
+
+
+
+USAGE
+
+
+CODE STRUCTURE
+
+
+CONTRUBUTING
+
+
+TECHNOLGIES USED
+
+FUTURE ENHANCEMENT
