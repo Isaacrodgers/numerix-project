@@ -24,21 +24,21 @@ int main() {
     if (operator == '+' || operator == '-' || operator == '*' || operator == '/' || operator == '^' || operator == 'r' || operator == 's' || operator == 'c' || operator == 't') {
         printf("Enter the first number: ");
         if (scanf("%lf", &num1) != 1) {
-            printf("Error: Invalid input for the first number.\n");
+            printf("Error: invalid input.\n");
             return 1;
         }
 
         if (operator != 'r' && operator != 's' && operator != 'c' && operator != 't') {
             printf("Enter the second number: ");
             if (scanf("%lf", &num2) != 1) {
-                printf("Error: Invalid input for the second number.\n");
+                printf("Invaid input.\n");
                 return 1;
             }
         }
     } else if (operator == 'h') {
         printf("Which band are you (1, 2, or 3)? ");
         if (scanf("%d", &band) != 1 || (band < 1 || band > 3)) {
-            printf("Error: Invalid input for band selection.\n");
+            printf(" Invalid input \n");
             return 1;
         }
         printf("Enter total fees for the whole year: ");
