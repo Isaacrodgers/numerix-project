@@ -9,7 +9,7 @@ int main() {
     // Display the menu of available operators
     printf("Enter an operator (+, -, *, /, ^, r, s, c, t, h):\n");
     printf("  + : Addition\n");
-    printf("  - : Subtraction\n");
+    printf("  - : Subtractio
     printf("  * : Multiplication\n");
     printf("  / : Division\n");
     printf("  ^ : Power\n");
