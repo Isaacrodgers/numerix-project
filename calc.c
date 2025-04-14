@@ -116,7 +116,7 @@ int main() {
             printf("Result: %.2lf\n", results);
             break;
         default:
-            printf("Error: Unexpected error occurred.\n");
+            printf("Exed error urred.\n");
     }
 
     return 0;
