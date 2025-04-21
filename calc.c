@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 
 int main() {
     char operator;
-    double num1, num2, results, fees, totalFees, upkeep;
+    double num1, num2, results, fees, totalFees, upKeep;
     int band;
 
     // Display the menu of available operators
@@ -47,25 +48,25 @@ int main() {
             return 1;
         }
 
-        // Calculate fees and upkeep based on band
+        // Calculate fees and upKeep based on band
         switch (band) {
             case 1:
                 fees = totalFees * 0.8;
-                upkeep = totalFees * 0.2;
+                upKeep = totalFees * 0.2;
                 break;
             case 2:
                 fees = totalFees * 0.7;
-                upkeep = totalFees * 0.3;
+                upKeep = totalFees * 0.3;
                 break;
             case 3:
                 fees = totalFees * 0.3;
-                upkeep = totalFees * 0.4;
+                upKeep = totalFees * 0.4;
                 break;
         }
-        printf("Fees: %.2lf, Upkeep: %.2lf\n", fees, upkeep);
+        printf("Fees: %.2lf, upKeep: %.2lf\n", fees, upKeep);
         return 0; // Exit after loan calculation
     } else {
-        printf("Error: Invalid operator! Please select a valid option.\n");
+        printf("Error: Invalid operator! Please enter a valid option.\n");
         return 1;
     }
 
@@ -116,7 +117,7 @@ int main() {
             printf("Result: %.2lf\n", results);
             break;
         default:
-            printf("Error: Unexpected error occurred.\n");
+            printf("Exed error urred.\n");
     }
 
     return 0;
