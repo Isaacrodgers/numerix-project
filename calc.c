@@ -11,11 +11,11 @@ int main() {
     printf("Enter an operator (+, -, *, /, ^, r, s, c, t, h):\n");
     printf("  + : Addition\n");
     printf("  - : Subtraction\n");
-    printf("  * : Multiplication screeed\n");
+    printf("  * : Multiplication\n");
     printf("  / : Division\n");
-    printf("  ^ : Powerdtfyug\n");
-    printf("  r : Squactyvjhbre root\n");
-    printf("  s : Sinybkje\n");
+    printf("  ^ : Power\n");
+    printf("  r : Square root\n");
+    printf("  s : Sine\n");
     printf("  c : Cosine\n");
     printf("  t : Tangent\n");
     printf("  h : Loan Calculation\n");
