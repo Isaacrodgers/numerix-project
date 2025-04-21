@@ -32,7 +32,7 @@ int main() {
         if (operator != 'r' && operator != 's' && operator != 'c' && operator != 't') {
             printf("Enter the second number: ");
             if (scanf("%lf", &num2) != 1) {
-                printf("Invaid input.\n");
+                printf("be serious ong'er\n");
                 return 1;
             }
         }
@@ -66,7 +66,7 @@ int main() {
         printf("Fees: %.2lf, upKeep: %.2lf\n", fees, upKeep);
         return 0; // Exit after loan calculation
     } else {
-        printf("Error: Invalid operator! Please enter a valid option.\n");
+        printf("look for a girlfreind !!\n");
         return 1;
     }
 
