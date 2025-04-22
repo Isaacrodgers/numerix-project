@@ -38,27 +38,7 @@ int main() {
         }
    
 
-        // Calculate fees and upKeep based on band
-        switch (band) {
-            case 1:
-                fees = totalFees * 0.8;
-                upKeep = totalFees * 0.2;
-                break;
-            case 2:
-                fees = totalFees * 0.7;
-                upKeep = totalFees * 0.3;
-                break;
-            case 3:
-                fees = totalFees * 0.3;
-                upKeep = totalFees * 0.4;
-                break;
-        }
-        printf("Fees: %.2lf, upKeep: %.2lf\n", fees, upKeep);
-        return 0; // Exit after loan calculation
-    } else {
-        printf("look for a girlfreind !!\n");
-        return 1;
-    }
+       
 
     // Perform calculations based on the operator
     switch (operator) {
