@@ -18,7 +18,7 @@ int main() {
     printf("  s : Sine\n");
     printf("  c : Cosine\n");
     printf("  t : Tangent\n");
-    printf("  h : Loan Calculation\n");
+    
     scanf(" %c", &operator);
 
     // Handle arithmetic and scientific operations
@@ -36,17 +36,7 @@ int main() {
                 return 1;
             }
         }
-    } else if (operator == 'h') {
-        printf("Which band are you (1, 2, or 3)? ");
-        if (scanf("%d", &band) != 1 || (band < 1 || band > 3)) {
-            printf(" Invalid input \n");
-            return 1;
-        }
-        printf("Enter total fees for the whole year: ");
-        if (scanf("%lf", &totalFees) != 1) {
-            printf("Error: Invalid input for total fees.\n");
-            return 1;
-        }
+   
 
         // Calculate fees and upKeep based on band
         switch (band) {
