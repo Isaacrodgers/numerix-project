@@ -53,7 +53,7 @@ int main() {
                 break;
             case '/':
                 if (num2 == 0) {
-                    printf("Error: Division by zero is not allowed\n");
+                    printf("Error: Division by zero is not allowed.\n");
                 } else {
                     results = num1 / num2;
                     printf("Result: %.2lf\n", results);
